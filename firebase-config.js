@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDryqwn1Eq6oZflNeQS03_-_QD58wefd0Y",
-  authDomain: "restaurantinventory-2a29a.firebaseapp.com",
-  projectId: "restaurantinventory-2a29a",
-  storageBucket: "restaurantinventory-2a29a.firebasestorage.app",
-  messagingSenderId: "516921319746",
-  appId: "1:516921319746:web:28e45a2ce1e90a4deaa8db"
+  apiKey: "AIzaSyCnKk_OkaxOsz1JVCjEk1GfOqaRiKfazWI",
+  authDomain: "restaurant-inventory-15b18.firebaseapp.com",
+  projectId: "restaurant-inventory-15b18",
+  storageBucket: "restaurant-inventory-15b18.firebasestorage.app",
+  messagingSenderId: "582943696085",
+  appId: "1:582943696085:web:eb32dfd72c0df1c2906e5c"
 };
 
 // Initialize Firebase
