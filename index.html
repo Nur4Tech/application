@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نظام جرد المطعم</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>نظام جرد المطعم</h1>
+      <form id="inventory-form">
+        <label>اسم الصنف:</label>
+        <input type="text" id="item-name" required />
+
+        <label>الكمية:</label>
+        <input type="number" id="item-quantity" required />
+
+        <label>العملية:</label>
+        <select id="operation">
+          <option value="إضافة">إضافة</option>
+          <option value="سحب">سحب</option>
+        </select>
+
+        <label>ملاحظات:</label>
+        <textarea id="item-notes"></textarea>
+
+        <button type="submit">حفظ</button>
+      </form>
+
+      <h2>سجل الجرد</h2>
+      <table id="inventory-table">
+        <thead>
+          <tr>
+            <th>الصنف</th>
+            <th>الكمية</th>
+            <th>العملية</th>
+            <th>ملاحظات</th>
+            <th>تاريخ</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="firebase-config.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
